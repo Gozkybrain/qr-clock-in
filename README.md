@@ -13,3 +13,9 @@ If the device matches, then the user gets clocked in and their ip, and time is s
 This will enable the admin of the firm view when all employees clock in from his panel. With the ip updated, then he can compare if they actually signed in from anywhere around the office as the office ip will be made available.
 
 
+## Routes
+* `/login and /register:` The login and register routes are used for authentication. All employee accounts must be registered and paired to a device ID, this way someone else can not clock-in for an employee. Clocking employee must be logged in to actually clock in and update their information.
+
+* `/admin:` The employer or HR can view all the users, and their last clocked in dates & time, the user's clocked in ip, and device id.
+
+You actually need two devices to test this system, by scanning with another device. On the other hand, you can print the page and scan.
